@@ -1,10 +1,29 @@
-Course Links
-- Course website: [https://nlp.pages.doc.ic.ac.uk/spring2023/](https://nlp.pages.doc.ic.ac.uk/spring2023/)
-- Materials: https://scientia.doc.ic.ac.uk/2223/modules/70016/materials
-- Edstem: https://edstem.org/us/courses/29425/discussion/
-- Coursework: https://cate.doc.ic.ac.uk/
-- Labs: [https://github.com/ImperialNLP/NLPLabs-2023](https://github.com/ImperialNLP/NLPLabs-2023)
-- My Lab Solutions: https://drive.google.com/drive/folders/1SkIXKjhrjIQ5G2WW6DAt8FhyMqKrVi3n
+# Natural Language Processing
+Foundations, building blocks and applications of Natural Language Processing (NLP), with an emphasis on approaches based on deep learning.
+Use these representations to study classification tasks (e.g. sentiment analysis) and tagging tasks (e.g. part of speech tagging). View languages as sequences of variable length, from pure language models to machine translation models. See approaches that are based on modern neural machine learning algorithms, where linguistic information is provided by instances of uses of language.
+
+# Coursework
+
+The task is to build a binary classification model
+to predict whether a text contains patronising or
+condescending language (PCL) using a pre-trained model, BERT. PCL is defined as
+language that expresses “superior attitude towards
+others or depicts them in a compassionate way.”
+(P´erez-Almendros et al., 2020). Detecting PCL in
+text is a challenging task for natural language processing
+(NLP) models due to the fact that PLC is
+usually subtle and difficult to detect, resulting in a
+difficult challenge for language models.
+To address this challenge, we utilize an annotated
+dataset created in the paper “Don’t Patronize
+Me! Patronizing and Condescending Language
+Towards Vulnerable Communities” (P´erez-
+Almendros et al., 2020). The dataset aimed at supporting
+the development of NLP models to identify
+and categorize PCL language towards vulnerable
+communities. 
+
+# Notes
 
 | Week | Topics                 | Notes                                | Lecture Notes                                              | Papers                         |
 | ---- | ---------------------- | ------------------------------------ | ---------------------------------------------------------- | ------------------------------ |
